@@ -6,6 +6,23 @@ The Industrial Copper Modeling project focuses on predicting the selling price a
 ## Dataset
 The dataset used for this analysis contains information about industrial copper transactions, including variables such as selling price, quantities, and status (won or lost). It provides a comprehensive view of the copper market and factors that influence the outcomes of transactions.
 
+## **Problem Statement:**
+  - The copper industry deals with less complex data related to sales and pricing.
+However, this data may suffer from issues such as skewness and noisy data, which
+can affect the accuracy of manual predictions. Dealing with these challenges manually
+can be time-consuming and may not result in optimal pricing decisions.
+  
+  - A machinelearning regression model can address these issues by utilizing advanced techniques
+such as data normalization, feature scaling, and outlier detection, and leveraging
+algorithms that are robust to skewed and noisy data.
+
+  - Another area where the copper industry faces challenges is in capturing the leads. A
+lead classification model is a system for evaluating and classifying leads based on
+how likely they are to become a customer .
+
+  - You can use the STATUS variable with WON being considered as Success and LOST being considered as Failure and
+remove data points other than WON, LOST STATUS values.
+
 ## Project Learnings
 The main learnings from this project are as follows:
 
